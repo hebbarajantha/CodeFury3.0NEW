@@ -5980,3 +5980,57 @@ del {
     margin-right: 15px;
   }
 }
+.logo-span{
+  display: none;
+}
+.logo-nav{
+  width:160px;
+  height: 60px;
+}
+.p-nav{
+  margin:0; font-size:3rem;text-align: center;
+}
+h1{
+  margin-bottom:0px;
+}
+@media screen and (max-width: 600px){
+  .header-area .header-bottom {
+    /* padding: 34px 0px; */
+    background:  #2d0a31;
+    box-shadow:0px 1px 7px 0px  rgba(45,10,49,1) ;
+} 
+.logo-span{
+  display: inline;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size:2rem;
+}
+.logo-nav {
+  display:none;
+}
+.p-nav{
+  font-size:3rem;
+  margin-bottom: 0px;
+}
+  h1{
+    margin:0;
+    text-align: center;
+    visibility: hidden;
+    display: none;
+  }
+  .mobile_menu .slicknav_menu .slicknav_btn .slicknav_icon-bar{
+    top:10px;
+    right:10px;
+  }
+}
+.mobile_menu .slicknav_menu .slicknav_nav {
+  z-index: 999999999999990;
+}
+li{
+  z-index:-1;
+}
+@media (max-width: 575px){
+.section-padding40 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
